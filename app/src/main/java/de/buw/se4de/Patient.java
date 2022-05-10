@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 		// method Patient for getting the Users information from consul
 		public Patient() {
-			System.out.println("Enter your name: ");
+			System.out.println("Enter your Full name: ");
 			this.name = sc.nextLine();
 			p.add(0, this.name);
 			System.out.println("Enter your date of birth(DD/MM/YYYY): ");
@@ -23,7 +23,14 @@ import java.util.Scanner;
 			this.in = sc.nextLine();
 			p.add(2, this.in);
 		}
-
+		
+		public void generatePatient() {
+			
+		}
+		
+		
+		
+		
 		public void print(Patient p) {
 			System.out.println(p.toString());
 		}
